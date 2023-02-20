@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9b9a9a;
+    min-height: 110vh;
+}
+
+.header1 {
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    box-shadow:rgba(1, 1, 1, 0.1);
+}
+
+.section1 {
+    text-align: center;
+    margin: auto;
+    text-align: center;
+}
+
+input[type="search"] {
+    border-radius: 5vh;
+    background-color: #c5c3c3;
+}
+
+input[type="search"]::after{
+    background-color: #6b6130;
+}
+
+#button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin:auto;
+  margin-top: 1vh;
+  cursor: pointer;
+  border-radius: 5vw;
+  position:static;
+}
+
+#button1:hover {
+    background-color: #285a29;
+    color: #f1fff1;
+}
+
+.img-set1 {
+    display: inline-block;
+    overflow:hidden;
+    position: absolute;
+    top: 30%;
+    max-width:auto;
+    max-height: 100%;
+    height: auto;
+    margin-left: 10vh;
+
+}
+/*
+.img-stack img {
+    display: block;
+    margin-bottom: 10px;
+} */
+
+@media screen and (max-width: 1100px) { /* change max-width to suit your needs */
+    .img-set1 {
+        display: flex;
+        flex-direction:column;
+    }
+    img {
+        margin-bottom: 10px;
+
+    }
+}
+
+a {
+    color: rgb(52, 51, 52);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    border-radius: 10vh;
+    background-color: #1b1b1b;
+    color: #b0adad;
+}
+
+#github{
+    color: white;
+    font-weight: 400;
+}
+
+img{
+    max-width: 30%;
+    overflow:visible;
+    margin-right: 5.5vh;
+    height:auto;
+}
+
+
+footer {
+    width: 100%;
+    padding-left: 1vh;
+    background-color: rgb(127, 127, 127);
+    border-top: 1px solid #ccc;
+    border-color: #1b1b1b;
+    background-size: cover;
+    position:fixed;
+    bottom: 0%;
+    left: 0%;
+    color: #ffffff;
+}
+
+
